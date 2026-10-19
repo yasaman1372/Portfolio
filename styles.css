@@ -107,6 +107,14 @@ h3 { margin: 19px 0 13px; font-size: 30px; line-height: 1.08; letter-spacing: 0;
 .review-title em { display: block; }
 .visual-nlp { background: #e6e7e2; color: #343a3b; }
 .sentiment-illustration { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+.visual-career { display: flex; flex-direction: column; justify-content: space-between; padding: 22px; overflow: hidden; background: #d9ded5; color: #252a2c; }
+.career-visual-label, .career-visual-footer { position: relative; z-index: 1; font: 10px/1.4 var(--mono); letter-spacing: .04em; }
+.career-visual-title { position: relative; z-index: 1; font-size: clamp(38px, 5vw, 64px); line-height: .98; font-weight: 600; letter-spacing: -.045em; }
+.career-visual-title em { color: #718b84; font-weight: 500; font-style: normal; }
+.career-visual-footer { display: flex; justify-content: space-between; padding-top: 13px; border-top: 1px solid #252a2c45; }
+.career-orbit { position: absolute; width: 290px; height: 290px; border: 1px solid #718b8450; border-radius: 50%; }
+.career-orbit-one { top: -110px; right: -56px; }
+.career-orbit-two { top: -72px; right: -18px; }
 .about-section { background: #2d3538; border-top: 1px solid var(--line); }
 .about-layout { display: grid; grid-template-columns: 1fr .8fr; gap: 10%; align-items: start; }
 .about-layout h2 { font-size: 50px; }
